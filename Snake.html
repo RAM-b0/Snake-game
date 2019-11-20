@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Snake</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+
+    <audio id="ds" src="ds.wav" preload="auto"></audio>
+    <audio id="dr" src="dr.wav" preload="auto"></audio>
+    <audio id="p" src="p.wav" preload="auto"></audio>
+</head>
+<body>
+
+  <div id="menu">
+    <p> Use arrows to move </p>
+    <p> Use Esc to pause </p>
+    <p> Score: <span id="score"> 0 </span></p>
+    <p> Highest score: <span id="Hscore"> 0 </span></p>
+    <p id="pauseState"> </p>
+  </div>
+
+<canvas id="gc" width="484" height="484"></canvas>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+#menu{
+    float:left;
+    background-color:#AAAAAA;
+    height: 482px;
+    width: 138px;
+    padding: 1px;
+    border: solid; 
+    border-color: #000000;
+    text-align: center;
+}
+#gc{
+    border: 1px;
+    border: solid; 
+    border-color: #000000;
+}
